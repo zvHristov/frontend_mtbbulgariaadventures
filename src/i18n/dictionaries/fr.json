@@ -1,0 +1,17 @@
+{
+  "common": {
+    "siteName": "Welcome to Mountain Biking Adventures",
+    "siteDescription": "Explore exciting mountain biking tours and lessons across Bulgaria!",
+    "menu": {
+      "home": "Home",
+      "posts": "Posts",
+      "news": "News"
+    }
+  },
+  "posts": {
+    "title": "All Posts",
+    "searchPlaceholder": "Search posts...",
+    "filterByCategory": "Filter by category",
+    "readMore": "Read more"
+  }
+}

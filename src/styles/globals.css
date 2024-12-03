@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #505F98;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ededed;
+    --foreground: #505F98;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Roboto, sans-serif;
+  font-size: 1rem;
+}
+
+.clip-path-custom-right {
+  background-image: url("/images/Path.png");
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.bg-clip-path-custom-right {
+  background-color: rgba(229, 231, 240, 1);
+}
+
+.top-nav li {
+    display: flex;
+    margin: .8rem .5rem .5rem 0;
+    font-size: .8rem;
+}
+
+
+/* Custom clip-path */
